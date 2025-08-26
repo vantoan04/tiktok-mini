@@ -11,7 +11,7 @@ function VideoCard({ src, likes, comments, shares }) {
 
       <div className="video-actions">
         <div className="action">
-          <HeartIcon /> <p>{likes}</p>
+          <HeartIcon /> <p1>{likes}</p1>
         </div>
         <div className="action">
           <CommentIcon /> <p>{comments}</p>

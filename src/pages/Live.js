@@ -1,12 +1,17 @@
 import React from "react";
+import VideoCard from "../components/VideoCard";
 
-function Live() {
+function Home() {
   return (
     <div>
-      <h1>LIVE</h1>
-      <p>Hiện tại không có ai đang livestream</p>
+      <VideoCard
+        src="/videos/demo5.mp4"
+        likes="80K"
+        comments="1.2K"
+        shares="300"
+      />
     </div>
   );
 }
 
-export default Live;
+export default Home;

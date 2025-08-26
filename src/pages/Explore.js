@@ -16,6 +16,12 @@ function Home() {
         comments="1.2K"
         shares="300"
       />
+      <VideoCard
+        src="/videos/demo5.mp4"
+        likes="8000"
+        comments="300"
+        shares="15"
+      />
     </div>
   );
 }

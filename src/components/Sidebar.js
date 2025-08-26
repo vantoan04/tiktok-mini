@@ -36,7 +36,7 @@ function Sidebar() {
           <ExploreIcon width={120} height={50}/> <span>Khám phá</span>
         </NavLink>
         <NavLink to="/following" className="menu-item">
-          <FollowingIcon /> <span>Đang follow</span>
+          <FollowingIcon /> <span>Đã follow</span>
         </NavLink>
         <NavLink to="/upload" className="menu-item">
           <UploadIcon /> <span>Tải lên</span>
@@ -45,7 +45,7 @@ function Sidebar() {
           <LiveIcon /> <span>Live</span>
         </NavLink>
         <NavLink to="/profile" className="menu-item">
-          <ProfileIcon /> <span>Cá nhân</span>
+          <ProfileIcon /> <span>Hồ sơ</span>
         </NavLink>
       </nav>
     </div>
