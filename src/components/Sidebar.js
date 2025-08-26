@@ -33,7 +33,7 @@ function Sidebar() {
           <HomeIcon /> <span>Đề xuất</span>
         </NavLink>
         <NavLink to="/explore" className="menu-item">
-          <ExploreIcon /> <span>Khám phá</span>
+          <ExploreIcon width={120} height={50}/> <span>Khám phá</span>
         </NavLink>
         <NavLink to="/following" className="menu-item">
           <FollowingIcon /> <span>Đang follow</span>
